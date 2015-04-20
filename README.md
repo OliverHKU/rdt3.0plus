@@ -25,6 +25,6 @@ simply use the "make" command.
 <b>- How to run the program?</b><br>
 After compilation, there will be two executables generated, namely "tserver" and "tclient". You can use the following command to start server/client:
   - sh run-server.sh <packet loss rate> <packet error rate> <client host name>
-  - sh run-client.sh <packet loss rate> <packet error rate> <server host name> <file name>
+  - sh run-client.sh <packet loss rate> <packet error rate> <server host name> <file name><br>
 Please make sure you have the directory /Store ready on the server side before running the program.
 Please always start server before client.
