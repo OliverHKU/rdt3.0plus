@@ -13,10 +13,10 @@ This protocal provides 6 C/C++ functions:
 <br>Please refer to the two example test programs for detailed usages.
 <b>Handshake: </b> The suggested handshake method involves three function calls on both the server and the client's sides. Client/sender calls rdt_send() twice to send file size and name to the receiver, and the server/receiver, upon receive correct information from the sender, calls rdt_send() to indicate start of file transfer.
 <b>Parameters:</b>
-There are 3 parameters you can set before compilation:
-  - PAYLOAD: maximum size of message in a data packet
-  - TIMEOUT: timeout length
-  - W: window size. Default is 5.
+There are 3 parameters you can set before compilation:<br>
+    - PAYLOAD: maximum size of message in a data packet
+    - TIMEOUT: timeout length
+    - W: window size. Default is 5.
 
 <b>- How to compile?</b><br>
 simply use the "make" command.
